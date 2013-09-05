@@ -49,11 +49,11 @@ table {
 
 a {
     color: #BABDB6;
-    /*text-decoration: underline;*/
+    text-decoration: underline;
 }
 
 a:hover{
-    color: #FFFFFF;
+    text-decoration: none;
 }
 
 body{
@@ -258,7 +258,7 @@ section.content{
 /* Content */
 
 article.post p{
-    font-size: 12px;
+    font-size: 14px;
     line-height: 24px;
     margin: 6px 0;
     color: #BABDB6;
@@ -288,7 +288,7 @@ ul.tags li{
 
 ul.tags li a{
     color: #999;
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 h1.tag:before,
@@ -302,7 +302,8 @@ ul.tags li a:after{
 }
 
 ul.tags li a:hover{
-    color: #222;
+    /*color: #222;*/
+    text-decoration: none;
 }
 
 h1 a, h2 a, h3 a{
@@ -377,7 +378,6 @@ a.backlink:hover, a.prev:hover, a.next:hover{
 
 .archives li.post{
     list-style-type: none;
-    border-bottom: 1px dotted #ccc;
     padding: 12px 0;
 
 }
