@@ -49,11 +49,11 @@ table {
 
 a {
     color: #BABDB6;
-    text-decoration: underline;
+    /*text-decoration: underline;*/
 }
 
 a:hover{
-    color: #222;
+    color: #FFFFFF;
 }
 
 body{
@@ -193,7 +193,7 @@ h1.title{
     color: #BABDB6;
     font-size: 24px;
     line-height: 36px;
-    border-bottom: 1px solid #ccc;
+    /*border-bottom: 1px solid #ccc;*/
 }
 
 .blog_excerpt h3{
