@@ -8,9 +8,16 @@
     padding: 0;
     border: 0;
     margin: 0;
-    color:#BABDB6;
+    /*color:#BABDB6;*/
 }
 
+pre code{
+    margin: 15px;
+}
+
+.disqus {
+    color:#BABDB6;
+}
 article,aside,details,figcaption,figure,
 footer,header,hgroup,menu,nav,section {
     display:block;
@@ -43,6 +50,8 @@ table {
 }
 
 
+
+
 * html .clearfix {
     height: 1%;
 }
@@ -61,6 +70,13 @@ body{
     background-color: #2E3436;
     padding: 0;
     margin: 0;
+}
+
+h1{
+    color: #BABDB6;
+    font-size: 16px;
+    font-weight: bold;
+    padding-top: 30px;
 }
 
 #container{
@@ -249,6 +265,7 @@ section.content{
 }
 
 .listing time{
+    color: #BABDB6;
     display:block;
     border-top: 1px solid #ccc;
     padding-top: 4px;
@@ -259,8 +276,8 @@ section.content{
 
 article.post p{
     font-size: 14px;
-    line-height: 24px;
-    margin: 6px 0;
+    /*line-height: 24px;*/
+    margin: 5px;
     color: #BABDB6;
 }
 
