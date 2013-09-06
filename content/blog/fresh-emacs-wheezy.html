@@ -33,8 +33,7 @@ tags:
 
 Можно открыть */etc/apt/sources.list* любимым редактором и вписать туда, соответственно:
 
-        deb http://emacs.naquadah.org/ stable/
-        deb-src http://emacs.naquadah.org/ stable/
+<pre><code class="no-highlight">deb http://emacs.naquadah.org/ stable/<br>deb-src http://emacs.naquadah.org/ stable/</code></pre>
 
 Если лень берет вверх или на вашем компьютере установлен только vi, и он вас очень пугает, то можно сделать всё вышеприведенное одной командой:
 
@@ -48,10 +47,10 @@ tags:
 
 Выполняем в терминале:
 
-    wget -q -O - http://emacs.naquadah.org/key.gpg | sudo apt-key add -
+<pre><code class="no-highlight">wget -q -O - http://emacs.naquadah.org/key.gpg | sudo apt-key add -</code></pre>
 И готово, ключ импортирован в систему. Теперь можно обновить репозитории:
 
-    sudo apt-get update
+<pre><code class="no-highlight">sudo apt-get update</code></pre>
 Все должно отработать без ошибок. При условии, что у вас, конечно, есть подключение к интернету.
 
 Устанавливаем Emacs
@@ -61,7 +60,7 @@ tags:
 
 Смелые вновь открывают терминал и с легкостью набирают:
 
-    sudo apt-get install emacs-snapshot
+<pre><code class="no-highlight">sudo apt-get install emacs-snapshot</code></pre>
 *Apt-get* после этого предложит установить все необходимые пакеты. Соглашайтесь без сомнений.
 
 После окончания установки можно смело пользоваться, в меню вашего DE должны появиться пункты _Emacs Snapshot(client)_ и _Emacs Snapshot(GTK)_. Если вы в сомнениях и не знаете, зачем вам каждый из них нужен, то запускайте Emacs Snapshot(GTK).
