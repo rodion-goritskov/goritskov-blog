@@ -5,7 +5,7 @@
 <a href="{{ content_url(res.url) }}">{{ post.image|markdown|typogrify }}</a>
 {{ post.excerpt|markdown|typogrify }}
 <time datetime="{{ res.meta.created.strftime('%Y-%m-%d') }}">
-    Posted: {{ res.meta.created.strftime('%a, %d %b %Y') }}
+    Опубликовано: {{ res.meta.created.strftime('%a, %d %b %Y') }}
 </time>
 </article>
 {% endmacro %}
