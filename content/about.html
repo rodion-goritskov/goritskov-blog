@@ -1,16 +1,21 @@
 ---
 extends: base.j2
 default_block: main
-title: About BASIC
-description: The default hyde template
+title: Обо мне
+description: Ненавязчивая информация об авторе
 ---
 
 {% filter markdown|typogrify -%}
 
 Меня зовут Родион Горицков.
 
+Средства для связи:
+
+* Электронная почта: ![Email]([[!!images/email.png]])
+* Jabber: ![Jabber]([[!!images/email.png]])
+
 О работе
-====================
+=====================
 
 Я SQA Specialist, занимаюсь функциональным тестированием и автоматизацией тестирования. Изучаю теоретические основы процесса обеспечения качества программ и стараюсь использовать полученные знания на практике. 
 
@@ -19,14 +24,19 @@ description: The default hyde template
 Предпочитаю использовать в работе решения с открытым исходным кодом.
 
 Об увлечениях
-====================
+=====================
 
 В свободное время я пытаюсь (пытаюсь!) писать небольшие утилиты на Python. Получается с переменным успехом (: За переменами успеха можно понаблюдать на [Github](https://github.com/rodion-goritskov)
 
-Также являюсь большим ценителем редактора [GNU Emacs](https://www.gnu.org/software/emacs/). Да и Emacs Lisp пришелся по душе, как не странно.
 
-Поддерживаю FSF.
+Участие в сообществах.
+======================
+* Участник FSF (Free Software Foundation).
 
 <a href="http://www.fsf.org/register_form?referrer=9915"><img src="http://static.fsf.org/nosvn/associate/fsf-9915.png" alt="[FSF Associate Member]" /></a>
 
+* Посильно участвую в составление свободной карты [OpenStreetMap](http://openstreetmap.org)
+
 {%- endfilter %}
+
+
