@@ -11,6 +11,14 @@
     /*color:#BABDB6;*/
 }
 
+em {
+    font-style: italic;
+}
+
+strong {
+    font-weight: bold;
+}
+
 li {
     color: #BABDB6;
     font-size: 14px;
@@ -423,7 +431,6 @@ a.backlink:hover, a.prev:hover, a.next:hover{
     float: right;
     margin-bottom:0;
 }
-
 
 .codebox {
   margin-top: 8px;
