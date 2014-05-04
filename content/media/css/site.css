@@ -26,6 +26,7 @@ li {
 
 pre code{
     margin: 15px;
+    width: 70%;
 }
 
 .disqus {
@@ -77,9 +78,12 @@ a:hover{
 
 body{
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    
     background-color: #2E3436;
     padding: 0;
-    margin: 0;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 h1{
@@ -92,7 +96,7 @@ h1{
 p {
     color: #BABDB6;
     font-size: 14px;
-    margin: 5px;
+    /*margin: 5px;*/
 }
 
 #container{
@@ -291,9 +295,11 @@ section.content{
 /* Content */
 
 article.post p{
-    font-size: 14px;
-    /*line-height: 24px;*/
-    margin: 5px;
+    /*font-size: 14px;*/
+    line-height: 22.5px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    width: 70%;
     color: #BABDB6;
 }
 
@@ -443,6 +449,7 @@ a.backlink:hover, a.prev:hover, a.next:hover{
   -o-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
   background-color: #F0F3F3;
+  width: 70%;
 }
 .code figcaption {
   font-size: 10px;
