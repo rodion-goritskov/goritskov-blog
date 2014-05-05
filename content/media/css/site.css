@@ -19,9 +19,18 @@ strong {
     font-weight: bold;
 }
 
+ul {
+    padding-left: 25px;
+}
+
 li {
     color: #BABDB6;
     font-size: 14px;
+    padding-left: 2px;
+    width: 70%;
+    line-height: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 pre code{
@@ -88,7 +97,7 @@ body{
 
 h1{
     color: #BABDB6;
-    font-size: 16px;
+    font-size: 17px;
     font-weight: bold;
     padding-top: 30px;
 }
@@ -96,12 +105,17 @@ h1{
 p {
     color: #BABDB6;
     font-size: 14px;
+    line-height: 20px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    width: 70%;
+    color: #BABDB6;
     /*margin: 5px;*/
 }
 
 #container{
-          background-color: #2E3436;
-          width: 80%;
+         background-color: #2E3436;
+         width: 80%;
          margin: 0 auto;
          padding: 12px;
 }
@@ -190,6 +204,8 @@ footer{
 .banner nav li{
     list-style-type: none;
     float: left;
+    width: inherit;
+    padding: 0px;
 }
 
 .banner nav li a.button{
@@ -296,7 +312,7 @@ section.content{
 
 article.post p{
     /*font-size: 14px;*/
-    line-height: 22.5px;
+    line-height: 20px;
     margin-top: 7px;
     margin-bottom: 7px;
     width: 70%;
