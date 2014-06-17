@@ -23,6 +23,11 @@ ul {
     padding-left: 25px;
 }
 
+ol {
+    padding-left: 25px;
+}
+
+
 li {
     color: #BABDB6;
     font-size: 14px;
